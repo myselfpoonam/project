@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+    <title>Tour and Travel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>BACK</span>PACK</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa fa-search" id="search-btn"></i>
+            <i class="fa fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here.............">
+            <label for="search-bar" class="fa fa-search"></label>
+        </form>
+
+    </header>
+    <div class="login-form-container">
+        <i class="fa fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>Forget Password?<a href="#">Click here</a></p>
+            <p>don't have an account?<a href="#">register now</a></p>
+        </form>
+    </div>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is worthwhile</h3>
+            <p>Discover new places with us, adventures awaits</p>
+            <a href="#" class="btn">Discover more</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/video1.mp4"></span>
+            <span class="vid-btn" data-src="images/video.mp4"></span>
+            <span class="vid-btn" data-src="images/video2.mp4"></span>
+            <span class="vid-btn" data-src="images/video3.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="images/video.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/Trip.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+
+                <input type="submit" class="btn" value="Book Now">
+            </form>
+        </div>
+    </section>
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-conatiner">
+            <div class="box">
+                <img src="images/pokhara.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-sharp fa-solid fa-location-dot"></i> Pokhara</h3>
+                    <p>Pokhara is a big tourist spot because it has the beautiful Phewa Tal Lake, great mountain scenery, serene Phewa, Begnas and Rupa Lakes, makes this destination 'the Jewel of the Himalaya'.</p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="price">$90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/ktm.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-sharp fa-solid fa-location-dot"></i> Kathmandu</h3>
+                    <p>Kathmandu, the capital of the country is home various temples, monasteries, and stupas , particularly the Pashupatinath Temple and the Changu Narayan.
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="price">$120.00<span>$190.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/lub.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-sharp fa-solid fa-location-dot"></i> Lumbini</h3>
+                    <p>Lumbini is one of the holiest places of one of the world's great religions, and its remains contain important evidence about the nature of Buddhist pilgrimage </p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="price">$150.00<span>$170.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/chi.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-sharp fa-solid fa-location-dot"></i> Chitwan</h3>
+                    <p> Chitwan literally means “heart of the jungle” Chitwan has a particularly rich flora and fauna and is home.Chitwan National Park (CNP), established in 1973, was Nepal's first National Park.
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="price">$70.00<span>$160.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/rara.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-sharp fa-solid fa-location-dot"></i> Jumla</h3>
+                    <p>Jumla to Rara lake has been a popular destination with off the beaten trekking route in far western Karnali region of Nepal for wilderness trekking lovers. </p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="price">$150.00<span>$220.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/solo.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-sharp fa-solid fa-location-dot"></i> Solukhumbu</h3>
+                    <p>Solukhumbu is a city in Sagarmatha, Nepal. It has many popular attractions, including Sagarmatha National Park, Ama Dablam, making it well worth a visit.</p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="price">$100.00<span>$150.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+
+
+        </h1>
+        <div class="box-conatiner">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable hotels</h3>
+                <p> A hotel that provides minimum amenities and services for a lower price than a regular hotel in the area.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-cutlery"></i>
+                <h3>Food and Drinks</h3>
+                <p>The latest food and drinks, food and lifestyle stories from Nepal and around the world.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                <h3>Safty guide</h3>
+                <p> leads tourists on inbound tours to places of interest, and shares information about the history and heritage.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <h3>Around the world</h3>
+                <p>It allows us to explore the world in compelling ways so that we can better understand each other, destinations, its history and culture.</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-plane" aria-hidden="true"></i>
+                <h3>fastest travel</h3>
+                <p>basic function is to transport passengers and their luggage from one point to another. Just like any other service industry, the airline industry provides a service for a set price.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>Adventure</h3>
+                <p>an unusual, exciting, and possibly dangerous activity, such as a trip or experience, or the excitement produced by such an activity</p>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-conatiner">
+            <div class="box">
+                <img src="images/img1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>All of us knows that the highest mountain in the world - Mount Everest - lies in Nepal </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>closest area to Kathmandu that lets you see the unique Himalayan biodiversity from up close </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>is the place were Lord Buddha was born and hence is an important pilgrimage site for Buddhists. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Annapurna is considered to be one of the deadliest mountains in the world. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>The second-largest freshwater lake in Nepal, Phewa Lake is top-rated among tourists. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>is a short and easy trek. The trek is comfortable and can be easily attempted by all age groups. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p> Poon Hill is also popular among those time shortage as the trek takes just 5 to 6 days</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>gives you close enough views of the Annapurna Massif, Manaslu, Gangapurna, Machhapuchhre etc.</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img10.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>One of the biggest stupas in the world, Boudhanath has an aura and charm of its own. </p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+
+        </h1>
+        <div class="box-conatiner">
+            <div class="box">
+                <img src="images/r1.jpg" alt="">
+                <div class="content">
+                    <h3>nancy biber</h3>
+                    <p>Overall had a nice experience .Booked a last minute tour through travel triangle to himachal with Ideal Tours. Tour was organised fairly well for a last minute prep ,Most of the itinerary covered .</p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/r1.png" alt="">
+                <div class="content">
+                    <h3>John Deo</h3>
+                    <p>This is our favorite travel agency. Except the long wait they have Outstanding customer services at reasonable prices. Thank you for easy booking with flights and hotels. Great deals, and honest services. Highly recommended to everyone.
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="images/r3.jpg" alt="">
+                <div class="content">
+                    <h3>levin john</h3>
+                    <p>was such a blessing in our vacation planning! We had originally planned on going somewhere else and I’m so thankful that (AN) was able to step in to help us create the best vacation possible. He was always very helpful no matter what.
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/svg.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name..">
+                    <input type="email" placeholder="Email..">
+
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+
+                </div>
+                <textarea placeholder="Message....." name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="box-conatiner">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Describe the unique insights, local connections, and insider tips to ensure an enriching travel experience for you. Create a comprehensive guide featuring the best travel destinations around the Nepal.Offer budget-friendly travel advice,
+                    including affordable accommodations, low-cost transportation options, free attractions, and local dining tips. </p>
+            </div>
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">Kathmandu</a>
+                <a href="#">Pokhara</a>
+                <a href="#">Chitwan</a>
+                <a href="#">Lumbini</a>
+                <a href="#">Baglung</a>
+            </div>
+            <div class="box">
+                <h3>quick link</h3>
+                <a href="#home">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit">created by<span> designer</span>| all rights reserved</h1>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js">
+    </script>
+</body>
+
+
+</html>
